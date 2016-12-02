@@ -7,20 +7,27 @@ It modified from pisces[https://github.com/wolfhong/pisces]. Thanks for their jo
 
 ## Example
 
-'''
+
 if __name__ == '__main__':
+
     # image search keyword: kitchen fire
+
     name_test = u'glasses'
+
     basetime_test = datetime.datetime(2009, 1, 1)
+
     endtime_test = datetime.datetime(2016, 6, 1)
+
     day_delta_test = 5
+
     last_end_test = 1
 
     main(name_test, basetime_test, endtime_test, day_delta_test, last_end_test, close=True)
-'''
+
+
+
 
 ## Tip
 - The code uses selenuim. Selenium Python bindings provides a simple API to write functional/acceptance tests using Selenium WebDriver. More info to see http://selenium-python.readthedocs.io/installation.html
-- default browser is firefox;
 - tools/chromedriver is only for chrome, to see http://chromedriver.storage.googleapis.com/index.html for more info.
 
