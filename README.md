@@ -8,6 +8,7 @@ It modified from pisces[https://github.com/wolfhong/pisces]. Thanks for their jo
 ## Example
 
 if __name__ == '__main__':
+
     # image search keyword: kitchen fire
     name_test = u'glasses'
     basetime_test = datetime.datetime(2009, 1, 1)
